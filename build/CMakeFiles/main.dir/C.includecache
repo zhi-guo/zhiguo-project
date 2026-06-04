@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/code/hello_world/main.c
+print.h
+C:/code/hello_world/print.h
+
+C:/code/hello_world/print.c
+print.h
+C:/code/hello_world/print.h
+
+C:/code/hello_world/print.h
+stdio.h
+-
+
+C:/code/hello_world/print1.c
+print.h
+C:/code/hello_world/print.h
+
